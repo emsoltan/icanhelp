@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border-box:this changes the box model so the padding and borders
+   are not added on top of the box's width and height
+   margin,padidng: 0 removes any extra padding or margin that might be added by browser*/
+}
+
+body {
+  /*We declare font properties in body not in root *{} as it is by default inherited into 
+  all body elements*/
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  /*means line height is 1.7 times bigger than default browaser line-height*/
+  color: #777;
+  padding: 30px;
+}
