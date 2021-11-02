@@ -11,9 +11,9 @@ const Header = () => {
           <span className="heading-primary-main">Icanhelp.DE</span>
           <span className="heading-primary-sub">We can do better together</span>
         </h1>
-        <a href="#" className="btn btn-white btn-animated">
+        <button className="btn btn-white btn-animated">
           check good deeds
-        </a>
+        </button>
       </div>
     </header>
   );
