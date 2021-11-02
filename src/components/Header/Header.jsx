@@ -4,15 +4,16 @@ import "./logo2.png";
 
 const Header = () => {
   return (
-    <header class="header">
-      <div class="logo-box"></div>
-      <div class="text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary-main">Icanhelp.DE</span>
-          <span class="heading-primary-sub">We can do better together</span>
+    <header className="header">
+      <div className="logo-box"></div>
+      <div className="text-box">
+        <h1 className="heading-primary">
+          <span className="heading-primary-main">Icanhelp.DE</span>
+          <span className="heading-primary-sub">We can do better together</span>
         </h1>
-        <a href="#" class="btn btn-white btn-animated">
-check good deeds        </a>
+        <a href="#" className="btn btn-white btn-animated">
+          check good deeds
+        </a>
       </div>
     </header>
   );
