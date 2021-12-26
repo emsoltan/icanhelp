@@ -1,31 +1,22 @@
 {
   "name": "icanhelp",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
-  },
+  "version": "1.0.0",
+  "description": "Volunteers coming together for a kinder world",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emsoltan/icanhelp.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Emad Soltan @ e-mad 2021",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emsoltan/icanhelp/issues"
+  },
+  "homepage": "https://github.com/emsoltan/icanhelp#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
   }
 }
