@@ -93,8 +93,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 6rem;
-  margin-top: 10rem; }
+  margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
@@ -176,7 +175,7 @@ p {
     height: 6.5rem; }
   .header__text-box {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
